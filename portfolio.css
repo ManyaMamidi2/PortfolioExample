@@ -1,0 +1,224 @@
+div.whole-thing {
+	display: flex;
+	flex: 1;
+	width: 1440;
+	height: 3600px;
+	flex-direction: column;
+	background-color: rgb(245, 243, 243);
+}
+div.header {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(245, 243, 243);
+	padding: 12px 120px;
+	justify-content: center;
+	align-items: center;
+	gap: 500px;
+	flex-shrink: 0;
+}
+#top-section {
+	display: flex;
+	flex-direction: row;
+	height: 450px;
+	justify-content: space-around;
+}
+#projects-section {
+	display: flex;
+	width: 1000;
+	height: 2000px;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 10%;
+	align-items: center;
+	gap: 30px;
+}
+div.project {
+	display: flex;
+	width: 992;
+	height: 524;
+	align-items: center;
+	flex-direction: row;
+	gap: 30px;
+	border-radius: 30px;
+	width: 80%;
+	box-shadow: 0 0 10px rgba(196, 121, 46, 0.137);
+}
+div.project-info {
+	width: 486;
+	height: 524;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+div.project-pic {
+	width: 486;
+	height: 524;
+	display: flex;
+	width: 50%;
+	height: 100%;
+	object-fit: cover;
+}
+a.nav {
+	display: flex;
+	width: 50px;
+	height: 56px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #25282b;
+	font-family: Playfair Display;
+	font-size: 15px;
+}
+#contacts-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 1000px;
+}
+#bottom {
+	width: 1440px;
+	height: 344px;
+	flex-shrink: 0;
+	fill: var(--brand-yellow, #5635fd);
+}
+div.input {
+	display: flex;
+	flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	width: 400px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 24px;
+}
+div.links {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	gap: 48px;
+	flex: 1 0 0;
+	padding-right: 30px;
+	background-color: var(--my-pink, #ed7bc9);
+}
+div.pic {
+	width: 720px;
+	height: 629px;
+	flex-shrink: 0;
+	background-color: rgb(255, 255, 255) 79px -170px / 91.944% 157.87%;
+	background-image: url(kitty.png);
+	background-repeat: no-repeat;
+	background-size: contain, cover;
+}
+h1 {
+	background-color: var(--my-pink, #ed7bc9);
+}
+h2 {
+	color: var(--font-high-emphasis, #25282b);
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 48px;
+}
+h3 {
+	color: var(--font-high-emphasis, #25282b);
+	font-family: Comfortaa;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 180%;
+}
+h4 {
+	font-family: Raleway;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+div.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 2%;
+	padding-top: 2%;
+	gap: 7px;
+}
+cap {
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+	color: var(--my-pink, #ed7bc9);
+	font-family: Nunito;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+title {
+	display: flex;
+	width: 486px;
+	flex-direction: column;
+	color: var(--font-high-emphasis, #25282b);
+	font-family: Playfair Display;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+}
+description {
+	display: flex;
+	width: 486px;
+	flex-direction: column;
+	color: var(--font-medium-emphasis, #828282);
+	font-family: Nunito;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+div.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 28px;
+	padding-top: 40px;
+}
+div.buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+
+	gap: 8px;
+}
+button {
+	display: flex;
+	padding: 8px 24px;
+	align-items: flex-start;
+	border-radius: 8px;
+}
+.fun {
+	border-radius: 8px;
+	color: rgb(245, 243, 243);
+	background: var(--my-pink, #ed7bc9);
+}
+.boring {
+	border-radius: 8px;
+	border: 2px solid var(--bg-line, #25282b);
+}
+.button-project {
+	display: flex;
+	padding: 8px 24px;
+	align-items: flex-start;
+	border-radius: 24px;
+	border: 1px solid var(--font-high-emphasis, #25282b);
+}
